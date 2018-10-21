@@ -21,6 +21,7 @@ def first_challenge
             if flavour == "strawberry"
               favorite_icecream_flavors.delete(flavour)
             end
+          end
         end
       end
     end
