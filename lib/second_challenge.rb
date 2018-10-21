@@ -7,10 +7,6 @@ def second_challenge
   }
 
   #code your solution here!
-  array = []
-  groceries.each do |type, list|
-    array.push(list)
-    array.flatten
-  end
+  array = groceries.values.flatten
   array
 end
