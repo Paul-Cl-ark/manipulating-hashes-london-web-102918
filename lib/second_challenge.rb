@@ -11,6 +11,6 @@ def second_challenge
   groceries.each do |type, list|
     array.push(list)
     array.flatten(1)
-    array
   end
+  array
 end
